@@ -11,18 +11,25 @@ public class Program {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		kor1 = 50;
-		kor2 = 60;
-		kor3 = 80;
+		kor1 = 0;
+		kor2 = 0;
+		kor3 = 0;
 		
 		//============================성적 입력 부분=========================
 		System.out.println("┌───────────────────────────────┐");
 		System.out.println("│             성적입력  　    　　　　│");
 		System.out.println("└───────────────────────────────┘");
 		System.out.print("국어1 : ");
+		
 		kor1 = scan.nextInt();
+		
+		int validate = 0<=kor1 && kor1<=100?1:0;
+		System.out.println(validate);
+//		System.out.println(0<=kor1 && kor1<=100?"유효합니다.":"잘못된값입니다.");
+		
 		System.out.print("국어2 : ");
 		kor2 = scan.nextInt();
+		
 		System.out.print("국어3 : ");
 		kor3 = scan.nextInt();
 		
