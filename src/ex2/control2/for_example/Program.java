@@ -1,4 +1,4 @@
-package ex2.control2.for_;
+package ex2.control2.for_example;
 
 public class Program {
 	public static void main(String[] args) {
