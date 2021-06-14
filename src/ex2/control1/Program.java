@@ -18,7 +18,7 @@ public class Program {
 		while(true){
 			//============================성적 입력 부분=========================
 			System.out.println("┌───────────────────────────────┐");
-			System.out.println("│             성적입력  　    　　　　│");
+			System.out.println("│             성적입력  　    　　　│");
 			System.out.println("└───────────────────────────────┘");
 			System.out.print("국어1 : ");
 			kor1 = scan.nextInt();
@@ -43,7 +43,7 @@ public class Program {
 			System.out.printf("avg is %f\n", avg);
 			
 			System.out.println("┌───────────────────────────────┐");
-			System.out.println("│             성적출력  　    　　　　│");
+			System.out.println("│             성적출력  　    　　　│");
 			System.out.println("└───────────────────────────────┘");
 			
 			System.out.printf("\t국어1 : %3d\n", kor1);
